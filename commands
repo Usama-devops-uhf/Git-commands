@@ -1,0 +1,27 @@
+Basic Operations:
+• git status - Your project's pulse check
+• git add - Staging changes
+• git commit - Capturing snapshots
+• git diff - Understanding changes
+
+Branching & Merging:
+• git branch - Managing parallel development
+• git checkout - Navigating branches
+• git merge - Combining work
+• git rebase - Maintaining clean history
+
+Collaboration Essentials:
+• git pull - Syncing with remote
+• git push - Sharing your work
+• git fetch - Getting remote updates
+• git rebase - Streamlining history
+
+Maintenance & Cleanup:
+• git stash - Shelving changes
+• git clean - Workspace cleanup
+• git reflog - Track reference updates
+
+History & Tracking:
+• git log - Review commit history
+• git blame - Track changes
+• git show - Detailed commit info
