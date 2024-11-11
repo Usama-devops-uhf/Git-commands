@@ -25,3 +25,40 @@ History & Tracking:
 • git log - Review commit history
 • git blame - Track changes
 • git show - Detailed commit info
+
+---------------------------------------------------SVN INFO --------------------------------------------------------------------------
+Server IP : 168.235.66.135
+
+/var/svn/projects/conf
+directories:
+/salesforce_core
+/salesforce_frontend_combined 
+
+[projects:/CodeBase/salesforce_core]
+umair = r
+uzair = r
+saeeda = r
+noman = r
+zubair = r
+hamza = r
+arsalan = r
+huzaif = r
+maham = r
+mehar = r
+vaman = r
+zaid = r
+taha = r
+hamid = r
+farhan = r
+bipl = r
+azaib = rw
+msk = rw
+zeeshan = r
+mehak = r
+hammadmeezan = r
+dua = r
+basim = r
+murtaza = r
+madhu = rw
+
+
