@@ -61,4 +61,168 @@ basim = r
 murtaza = r
 madhu = rw
 
+------------------------------------------- Linux usefull command -----------------------------------------------------------------
+
+SSH Key Authentication:
+
+ssh-keygen -t rsa
+ssh-copy-id user@hostname
+File Transfer:
+
+scp localfile.txt user@remote:/path
+Text Search:
+
+grep -r "pattern" /path/to/search
+Process Management:
+
+ps aux | grep process_name
+kill -9 process_id
+System Information:
+
+uname -a
+cat /etc/os-release
+Disk Usage:
+
+apt-get update
+apt-get install package_name
+Package Management:
+
+ifconfig
+netstat -tulpn
+Network Information:
+
+useradd username
+passwd username
+User Management:
+
+chmod +x filename
+chown user:group filename
+File Permissions:
+
+chmod +x filename
+chown user:group filename
+Cron Jobs:
+
+crontab -e
+System Logs:
+
+tail -f /var/log/syslog
+SSH Tunneling:
+
+ssh -L local_port:remote_host:remote_port user@hostname
+Firewall Configuration:
+
+ufw allow 80
+Check Service Status:
+
+systemctl status service_name
+Create a RAM Disk:
+
+mount -t tmpfs -o size=512M tmpfs /mnt/ramdisk
+Environment Variables:
+
+export VARIABLE=value
+Disk Encryption:
+
+cryptsetup luksFormat /dev/sdX
+Docker Commands:
+
+docker ps
+docker exec -it container_id /bin/bash
+Check System Load:
+
+top
+System Upgrades:
+
+apt-get upgrade
+Run a Command in the Background:
+
+command &
+List Open Ports:
+
+lsof -i
+Find and Replace in Files:
+
+sed -i 's/old_text/new_text/g' filename
+Check Available Memory:
+
+free -m
+Monitor Network Traffic:
+
+tcpdump -i eth0
+Install Nginx:
+
+apt-get install nginx
+SSH Configurations:
+
+nano ~/.ssh/config
+Generate Random Password:
+
+openssl rand -base64 12
+Archive and Compress:
+
+tar -czvf archive.tar.gz /path/to/directory
+Check System Uptime:
+
+uptime
+Run a Command on Multiple Servers:
+
+parallel-ssh -h hosts.txt -l username -i "command"
+Monitor Disk I/O:
+
+iostat -d 5
+Check Kernel Version:
+
+uname -r
+Find Large Files:
+
+find / -type f -size +100M
+Install Node.js:
+
+curl -sL https://deb.nodesource.com/setup_14.x | bash -
+apt-get install -y nodejs
+Check File System Type:
+
+df -Th
+Run a Command at Regular Intervals:
+
+watch -n 1 command
+Limit CPU Usage:
+
+cpulimit -e process_name -l 50
+Install Git:
+
+apt-get install git
+Check System Architecture:
+
+arch
+List Installed Packages:
+
+dpkg –list
+Create Symbolic Link:
+
+ln -s /path/to/source /path/to/link
+List USB Devices:
+
+lsusb
+List Open Files by User:
+
+lsof -u username
+Check SELinux Status:
+
+sestatus
+Install Python Pip:
+
+apt-get install python3-pip
+Check RAID Status:
+
+cat /proc/mdstat
+Check OpenVPN Status:
+
+systemctl status openvpn
+Check Failed Login Attempts:
+
+cat /var/log/auth.log | grep "Failed password"
+
+
 
