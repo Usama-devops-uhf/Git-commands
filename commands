@@ -105,4 +105,28 @@ Here’s an extended list of useful Git commands beyond the common ones :
  🚀𝐠𝐢𝐭 𝐜𝐡𝐞𝐫𝐫𝐲-𝐩𝐢𝐜𝐤: Apply specific commits from another branch.
  🚀𝐠𝐢𝐭 𝐫𝐦: Remove files from the working directory and staging area.
 
+-------------laravel project -------------------------------------------------------------------------------------------------------
+
+To prevent this issue in the future (recommended for all Laravel deployments)
+
+cd /var/www/kdms_aftersales_backend
+
+# Ensure directories and permissions are correct
+mkdir -p storage/framework/{cache/data,sessions,views} bootstrap/cache
+chown -R www-data:www-data storage bootstrap/cache
+chmod -R 775 storage bootstrap/cache
+
+# Clear and rebuild caches
+php artisan optimize:clear
+php artisan optimize
+
+php artisan config:clear
+php artisan route:clear
+php artisan view:clear
+
+
+
+
+
+
 
